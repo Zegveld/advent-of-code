@@ -4,8 +4,9 @@ import eu.helral.advent.of.code.template.DayTemplate;
 
 public class Day01 extends DayTemplate {
 	/**
-	 * <pre>
+	 * https://adventofcode.com/2015/day/1
 	 *
+	 * <pre>
 	 * Santa was hoping for a white Christmas, but his weather machine's "snow" function is powered by stars, and he's fresh out!
 	 * To save Christmas, he needs you to collect fifty stars by December 25th.
 	 *

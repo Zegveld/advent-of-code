@@ -7,6 +7,9 @@ import eu.helral.advent.of.code.template.DayTemplate;
 
 public class Day12 extends DayTemplate {
 
+	/**
+	 * https://adventofcode.com/2015/day/12
+	 */
 	Pattern number = Pattern.compile("\\-?\\d+");
 
 	public long part1() {

@@ -11,6 +11,9 @@ import java.util.regex.Pattern;
 import eu.helral.advent.of.code.template.DayTemplate;
 
 public class Day07 extends DayTemplate {
+	/**
+	 * https://adventofcode.com/2015/day/7
+	 */
 	private static final Pattern NOT = Pattern.compile("NOT (\\w+) -> (\\w+)");
 
 	private static final Pattern OR_DIRECT_DIRECT = Pattern.compile("(\\w+) OR (\\w+) -> (\\w+)");

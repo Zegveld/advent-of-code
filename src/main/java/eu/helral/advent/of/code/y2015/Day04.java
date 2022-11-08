@@ -15,6 +15,8 @@ public class Day04 extends DayTemplate {
 	}
 
 	/**
+	 * https://adventofcode.com/2015/day/4
+	 *
 	 * <pre>
 	 * --- Day 4: The Ideal Stocking Stuffer --- Santa needs help mining some
 	 * AdventCoins (very similar to bitcoins) to use as gifts for all the

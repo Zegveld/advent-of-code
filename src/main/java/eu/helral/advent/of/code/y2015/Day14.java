@@ -12,6 +12,8 @@ import eu.helral.advent.of.code.template.DayTemplate;
 public class Day14 extends DayTemplate {
 
 	/**
+	 * https://adventofcode.com/2015/day/14
+	 *
 	 * <pre>
 	 * --- Day 14: Reindeer Olympics ---
 	 * This year is the Reindeer Olympics! Reindeer can fly at high speeds, but must rest occasionally to recover their energy. Santa

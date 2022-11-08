@@ -5,6 +5,8 @@ import eu.helral.advent.of.code.template.DayTemplate;
 public class Day02 extends DayTemplate {
 
 	/**
+	 * https://adventofcode.com/2015/day/2
+	 *
 	 * <pre>
 	 * --- Day 2: I Was Told There Would Be No Math ---
 	 * The elves are running low on wrapping paper, and so they need to submit an order for more. They have a list of the dimensions

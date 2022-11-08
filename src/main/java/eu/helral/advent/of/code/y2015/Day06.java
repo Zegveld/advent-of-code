@@ -9,6 +9,8 @@ import eu.helral.advent.of.code.template.DayTemplate;
 public class Day06 extends DayTemplate {
 
 	/**
+	 * https://adventofcode.com/2015/day/6
+	 *
 	 * <pre>
 	 * --- Day 6: Probably a Fire Hazard ---
 	 * Because your neighbors keep defeating you in the holiday house decorating contest year after year,

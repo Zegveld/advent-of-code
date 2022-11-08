@@ -11,6 +11,8 @@ import eu.helral.advent.of.code.utils.path.shortest.ShortestPath;
 public class Day09 extends DayTemplate {
 
 	/**
+	 * https://adventofcode.com/2015/day/9
+	 *
 	 * <pre>
 	 * --- Day 9: All in a Single Night ---
 	 * Every year, Santa manages to deliver all of his presents in a single night.

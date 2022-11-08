@@ -5,6 +5,8 @@ import eu.helral.advent.of.code.template.DayTemplate;
 public class Day05 extends DayTemplate {
 
 	/**
+	 * https://adventofcode.com/2015/day/5
+	 *
 	 * <pre>
 	 * --- Day 5: Doesn't He Have Intern-Elves For This? ---
 	 * Santa needs help figuring out which strings in his text file are naughty or nice.

@@ -5,6 +5,8 @@ import eu.helral.advent.of.code.template.DayTemplate;
 public class Day08 extends DayTemplate {
 
 	/**
+	 * https://adventofcode.com/2015/day/8
+	 *
 	 * <pre>
 	 * --- Day 8: Matchsticks ---
 	 * Space on the sleigh is limited this year, and so Santa will be bringing his list as a digital copy.

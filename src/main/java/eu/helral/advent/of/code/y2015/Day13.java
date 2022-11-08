@@ -16,6 +16,8 @@ import eu.helral.advent.of.code.template.DayTemplate;
 public class Day13 extends DayTemplate {
 
 	/**
+	 * https://adventofcode.com/2015/day/13
+	 *
 	 * <pre>
 	 * --- Day 13: Knights of the Dinner Table ---
 	 * In years past, the holiday feast with your family hasn't gone so well. Not everyone gets along! This year, you resolve, will be different. You're going to find the optimal seating arrangement and avoid all those awkward conversations.

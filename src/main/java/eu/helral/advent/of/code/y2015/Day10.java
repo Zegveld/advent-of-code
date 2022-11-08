@@ -9,6 +9,8 @@ import eu.helral.advent.of.code.template.DayTemplate;
 public class Day10 extends DayTemplate {
 
 	/**
+	 * https://adventofcode.com/2015/day/10
+	 *
 	 * <pre>
 	 * --- Day 10: Elves Look, Elves Say ---
 	 * Today, the Elves are playing a game called look-and-say. They take turns making sequences by reading aloud
@@ -32,7 +34,6 @@ public class Day10 extends DayTemplate {
 	 */
 	public int part1() {
 		return repeatNumberChaining(FR, 40).stream().mapToInt(ConwaySequence::getSize).sum();
-//		return repeatNumberChaining("1113122113", 40).length();
 	}
 
 	class ConwaySequence {
