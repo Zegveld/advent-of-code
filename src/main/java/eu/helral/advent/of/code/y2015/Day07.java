@@ -158,6 +158,7 @@ public class Day07 extends DayTemplate {
 	public Integer part1() {
 		List<String> unhandledLines = new ArrayList<>();
 		List<String> currentList = getInput().toList();
+		waitAMoment();
 		while (!currentList.isEmpty()) {
 			for (String line : currentList) {
 				boolean handled = handle(line);
@@ -166,19 +167,21 @@ public class Day07 extends DayTemplate {
 				}
 			}
 			if (currentList.size() == unhandledLines.size()) {
-				outputMap.entrySet().forEach(e -> System.out.println(e.getKey() + " -> " + e.getValue()));
-				System.out.println();
-				System.out.println();
-				System.out.println("unhandled lines:");
-				System.out.println();
-				currentList.forEach(System.out::println);
 				return Integer.MIN_VALUE;
 			}
 			currentList = unhandledLines;
 			unhandledLines = new ArrayList<>();
 		}
-		outputMap.entrySet().forEach(e -> System.out.println(e.getKey() + " -> " + e.getValue()));
 		return outputMap.get("a");
+	}
+
+	private void waitAMoment() {
+		try {
+			Thread.sleep(100);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	private void store(String key, Integer value) {
@@ -202,6 +205,7 @@ public class Day07 extends DayTemplate {
 	public Integer part2() {
 		List<String> unhandledLines = new ArrayList<>();
 		List<String> currentList = new ArrayList<>(getInput().toList());
+		waitAMoment();
 		currentList.remove("19138 -> b");
 		currentList.add("16076 -> b");
 		while (!currentList.isEmpty()) {
@@ -212,18 +216,11 @@ public class Day07 extends DayTemplate {
 				}
 			}
 			if (currentList.size() == unhandledLines.size()) {
-				outputMap.entrySet().forEach(e -> System.out.println(e.getKey() + " -> " + e.getValue()));
-				System.out.println();
-				System.out.println();
-				System.out.println("unhandled lines:");
-				System.out.println();
-				currentList.forEach(System.out::println);
 				return Integer.MIN_VALUE;
 			}
 			currentList = unhandledLines;
 			unhandledLines = new ArrayList<>();
 		}
-		outputMap.entrySet().forEach(e -> System.out.println(e.getKey() + " -> " + e.getValue()));
 		return outputMap.get("a");
 	}
 
